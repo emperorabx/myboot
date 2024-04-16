@@ -1,0 +1,139 @@
+.market div{
+    box-shadow: 0 4px 4px 4px gainsboro;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.market div h4{
+    color:green;
+}
+.market div a{
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 25px;
+    color: white;
+}
+.market div a:hover{
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 25px;
+    color: green;
+}
+.market div:hover{
+    background-color: green;
+    cursor: alias;
+    animation-name: marki;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+.market div:hover h4{
+    color: white;
+}
+.market div:hover p{
+    color: white;
+}
+.market div:hover a{
+    border: 1px solid white;
+}
+@keyframes marki{
+    from{bottom: 3px;}
+    to{bottom: 5px;}
+}
+.mybody{
+    width: 100%;
+}
+.mybody img{
+    width: 100%;
+    height: 250px;
+}
+.mybody h4{
+    color: green;
+}
+.mybody a{
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid green;
+}
+.mybody a:hover{
+    background-color: white;
+    color: green;
+    border-radius: 25px;
+    border: 1px solid green;
+}
+.mylogo a img{
+    height: 60px;
+}
+.service{
+    box-shadow: 0 4px 4px 2px gainsboro;
+}
+.service img{
+    width: 20%;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.service h4 a{
+    text-decoration: none;
+   color: green;
+}
+.service h4 a:hover{
+    text-decoration: none;
+   color: black;
+}
+/*#header nav{
+    background-image: url(../image/ny.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+.myig svg{
+    display: block;
+}
+.myig #myflip{
+    transform: rotate(180deg);
+}
+.mypp svg{
+    display: block;
+}
+.mypp #myf{
+    transform: rotate(180deg);
+}
+.myimage img{
+    width: 100%;
+    height: 300px;
+    transform: skew(-30deg);
+}
+.myimage img:hover{
+    width: 100%;
+    height: 300px;
+    transform: skew(-30deg);
+}
+.mypro div{
+    background-image: url(../image/ny.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.mypro div{
+    background-image: url(../image/ny.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    animation-name: myink;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    position: relative;
+}
+@keyframes myink{
+    from{background-size: 1200px;}
+    to{background-size: 1900px;}
+}
